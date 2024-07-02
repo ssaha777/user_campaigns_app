@@ -1,0 +1,22 @@
+<h1>List of Users</h1>
+
+<form id="campaign-filter-form">
+  <label for="campaign-filter">Filter by Campaign Name:</label>
+  <input required type="text" id="campaign-filter" name="campaign_names" placeholder="Enter campaign names separated by commas">
+  <button type="submit" id="filter-button" class="btn">Filter</button>
+</form>
+<br>
+<table id="users-table" class="bordered-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Campaigns</th>
+    </tr>
+  </thead>
+  <tbody id="users-list">
+  </tbody>
+</table>
+<br><br>
+
+<button class="btn", id="add_user_btn">Add New User</button>
